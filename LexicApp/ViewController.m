@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "MytabBarViewController.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,30 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    //SEL selectorTest = @selector(sendNextView);
+    
     // Do any additional setup after loading the view, typically from a nib.
+    if ([self respondsToSelector:@selector(sendNextView)]) {
+        NSLog(@"Responde a selector");
+        [self performSelector:@selector(sendNextView) withObject:nil afterDelay:3.0f];
+        //[self sendNextView];
+    } else {
+        NSLog(@"No responde");
+    }
+    
+}
+
+
+- (void)sendNextView {
+    [self performSegueWithIdentifier:@"mainView" sender:self];
+    //[self dismissModalViewControllerAnimated:YES];
+    //[self performSegueWithIdentifier:@"mainView" sender:self];
+    NSLog(@"end");
+    }
+
+- (void) viewDidAppear:(BOOL)animated{
+    NSLog(@"Vista aparecerá");
+    
 }
 
 - (void)didReceiveMemoryWarning {

@@ -14,6 +14,8 @@
 		8158BC901A887ACF00D560C0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8158BC8F1A887ACF00D560C0 /* Images.xcassets */; };
 		8158BC931A887ACF00D560C0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8158BC911A887ACF00D560C0 /* LaunchScreen.xib */; };
 		8158BC9F1A887ACF00D560C0 /* LexicAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8158BC9E1A887ACF00D560C0 /* LexicAppTests.m */; };
+		8158BCAA1A887EA700D560C0 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8158BCA91A887EA700D560C0 /* MainViewController.m */; };
+		8158BCAD1A88842C00D560C0 /* MytabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8158BCAC1A88842B00D560C0 /* MytabBarViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		8158BC981A887ACF00D560C0 /* LexicAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LexicAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8158BC9D1A887ACF00D560C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8158BC9E1A887ACF00D560C0 /* LexicAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LexicAppTests.m; sourceTree = "<group>"; };
+		8158BCA81A887EA700D560C0 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		8158BCA91A887EA700D560C0 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		8158BCAB1A88842B00D560C0 /* MytabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MytabBarViewController.h; sourceTree = "<group>"; };
+		8158BCAC1A88842B00D560C0 /* MytabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MytabBarViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +95,10 @@
 				8158BC8F1A887ACF00D560C0 /* Images.xcassets */,
 				8158BC911A887ACF00D560C0 /* LaunchScreen.xib */,
 				8158BC821A887ACF00D560C0 /* Supporting Files */,
+				8158BCA81A887EA700D560C0 /* MainViewController.h */,
+				8158BCA91A887EA700D560C0 /* MainViewController.m */,
+				8158BCAB1A88842B00D560C0 /* MytabBarViewController.h */,
+				8158BCAC1A88842B00D560C0 /* MytabBarViewController.m */,
 			);
 			path = LexicApp;
 			sourceTree = "<group>";
@@ -222,6 +232,8 @@
 				8158BC8B1A887ACF00D560C0 /* ViewController.m in Sources */,
 				8158BC881A887ACF00D560C0 /* AppDelegate.m in Sources */,
 				8158BC851A887ACF00D560C0 /* main.m in Sources */,
+				8158BCAA1A887EA700D560C0 /* MainViewController.m in Sources */,
+				8158BCAD1A88842C00D560C0 /* MytabBarViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
